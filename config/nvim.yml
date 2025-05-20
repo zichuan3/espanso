@@ -1,0 +1,4 @@
+filter_exec: "nvim"
+
+extra_includes: 
+  - "../match/_nvim.yml" 

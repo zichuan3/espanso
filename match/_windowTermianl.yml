@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  - trigger: "ls"
+    replace: "lsd"
+    left_word: true
+  
+  - trigger: "scoop uninstall"
+    replace: "scoop uninstall -p"
+
+  - trigger: "diff"
+    replace: "difft"
+    word: true
+
+  - trigger: "cat"
+    replace: "bat"
+    left_word: true
+
+  - trigger: "fd"
+    replace: "fd -H"
+    left_word: true
