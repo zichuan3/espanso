@@ -8,6 +8,12 @@ matches:
   - trigger: "scoop uninstall"
     replace: "scoop uninstall -p"
 
+  - trigger: "scoop cache"
+    replace: "scoop cache rm *"
+
+  - trigger: "scoop cleanup"
+    replace: "scoop cleanup *"
+
   - trigger: "diff"
     replace: "difft"
     word: true
@@ -15,6 +21,10 @@ matches:
   - trigger: "cat"
     replace: "bat"
     left_word: true
+
+  - trigger: "clear"
+    replace: "cls"
+    word: true
 
   - trigger: "fd"
     replace: "fd -H"
