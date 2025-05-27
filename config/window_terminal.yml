@@ -1,3 +1,0 @@
-filter_exec: WindowsTerminal
-extra_includes:
-  - "../match/_windowTermianl.yml"
