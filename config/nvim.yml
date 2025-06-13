@@ -1,4 +1,4 @@
-filter_exec: "nvim"
+filter_title: "cmd.EXE - nvim"
 
 extra_includes: 
   - "../match/_nvim.yml" 
